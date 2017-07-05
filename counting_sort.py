@@ -1,6 +1,6 @@
 # counting sort O(logn)
-# usu. don't use this unless less than 10^9
-# use python's sort() O(nlogn)
+# usu. don't use this unless less than 10^9 due to space lim.
+# use python's sort() if O(nlogn) is acceptable
 
 def counting_sort(A):
     A_count=[0]*(max(A)+1)
